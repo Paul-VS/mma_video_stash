@@ -1,9 +1,7 @@
 import { writable } from 'svelte/store'
 
-export const currentPosition = writable("Home");
-export const previousPosition = writable("Home");
-
-export let videos = writable([
+const defaultVideos = 
+[
   {
     "title": "Lomachenko's jab",
     "position": "Standing",
@@ -34,5 +32,10 @@ export let videos = writable([
     "url": "https://www.youtube.com/embed/DbSWNZwEFqo",
     "notes": "this is an example turtle video"
   }
-]);
+]
 
+export const currentPosition = writable("Home");
+export const previousPosition = writable("Home");
+
+export const videos = writable(JSON.parse(localStorage.getItem("videos")) || defaultVideos);
+videos.subscribe(val => localStorage.setItem("videos", JSON.stringify(val)));
