@@ -718,22 +718,23 @@ var app = (function () {
     			button4.textContent = "TURTLE";
     			t9 = space();
     			img = element("img");
-    			attr_dev(button0, "class", "position svelte-bn6kdj");
+    			attr_dev(button0, "class", "position svelte-5bbzj0");
     			add_location(button0, file$4, 15, 2, 322);
-    			attr_dev(button1, "class", "position svelte-bn6kdj");
+    			attr_dev(button1, "class", "position svelte-5bbzj0");
     			add_location(button1, file$4, 16, 2, 408);
-    			attr_dev(button2, "class", "position svelte-bn6kdj");
+    			attr_dev(button2, "class", "position svelte-5bbzj0");
     			add_location(button2, file$4, 17, 2, 490);
-    			attr_dev(button3, "class", "position svelte-bn6kdj");
+    			attr_dev(button3, "class", "position svelte-5bbzj0");
     			add_location(button3, file$4, 18, 2, 570);
-    			attr_dev(button4, "class", "position svelte-bn6kdj");
+    			attr_dev(button4, "class", "position svelte-5bbzj0");
     			add_location(button4, file$4, 19, 2, 650);
     			if (!src_url_equal(img.src, img_src_value = "mma.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Connor vs Khabib");
     			attr_dev(img, "width", "100%");
-    			attr_dev(img, "class", "svelte-bn6kdj");
+    			attr_dev(img, "class", "svelte-5bbzj0");
     			add_location(img, file$4, 20, 2, 732);
     			attr_dev(div, "id", "home");
+    			attr_dev(div, "class", "svelte-5bbzj0");
     			add_location(div, file$4, 14, 0, 304);
     		},
     		l: function claim(nodes) {
@@ -957,7 +958,7 @@ var app = (function () {
     			if (!src_url_equal(iframe.src, iframe_src_value = /*selectedVideo*/ ctx[1].url)) attr_dev(iframe, "src", iframe_src_value);
     			attr_dev(iframe, "loading", "eager");
     			attr_dev(iframe, "frameborder", "0");
-    			attr_dev(iframe, "class", "svelte-ibesj8");
+    			attr_dev(iframe, "class", "svelte-3q7iyz");
     			add_location(iframe, file$3, 32, 4, 779);
     		},
     		m: function mount(target, anchor) {
@@ -993,7 +994,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			textarea = element("textarea");
-    			attr_dev(textarea, "class", "svelte-ibesj8");
+    			attr_dev(textarea, "class", "svelte-3q7iyz");
     			add_location(textarea, file$3, 37, 4, 933);
     		},
     		m: function mount(target, anchor) {
@@ -1075,16 +1076,16 @@ var app = (function () {
     			if (/*selectedVideo*/ ctx[1] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[3].call(select));
     			add_location(select, file$3, 18, 2, 413);
     			attr_dev(div0, "id", "select_container");
-    			attr_dev(div0, "class", "svelte-ibesj8");
+    			attr_dev(div0, "class", "svelte-3q7iyz");
     			add_location(div0, file$3, 17, 2, 383);
     			attr_dev(div1, "id", "iframe_container");
-    			attr_dev(div1, "class", "svelte-ibesj8");
+    			attr_dev(div1, "class", "svelte-3q7iyz");
     			add_location(div1, file$3, 30, 2, 719);
     			attr_dev(div2, "id", "notes_container");
-    			attr_dev(div2, "class", "svelte-ibesj8");
+    			attr_dev(div2, "class", "svelte-3q7iyz");
     			add_location(div2, file$3, 35, 0, 874);
     			attr_dev(div3, "id", "video");
-    			attr_dev(div3, "class", "svelte-ibesj8");
+    			attr_dev(div3, "class", "svelte-3q7iyz");
     			add_location(div3, file$3, 16, 0, 364);
     		},
     		l: function claim(nodes) {
@@ -1492,34 +1493,36 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "🗑️";
     			attr_dev(input0, "type", "text");
-    			add_location(input0, file$1, 32, 10, 927);
+    			add_location(input0, file$1, 32, 10, 936);
     			option0.__value = "Standing";
     			option0.value = option0.__value;
     			option0.selected = true;
-    			add_location(option0, file$1, 34, 12, 1031);
+    			add_location(option0, file$1, 34, 12, 1040);
     			option1.__value = "Clinch";
     			option1.value = option1.__value;
     			option1.selected = true;
-    			add_location(option1, file$1, 35, 12, 1095);
+    			add_location(option1, file$1, 35, 12, 1104);
     			option2.__value = "Fence";
     			option2.value = option2.__value;
     			option2.selected = true;
-    			add_location(option2, file$1, 36, 12, 1155);
+    			add_location(option2, file$1, 36, 12, 1164);
     			option3.__value = "Guard";
     			option3.value = option3.__value;
     			option3.selected = true;
-    			add_location(option3, file$1, 37, 12, 1213);
+    			add_location(option3, file$1, 37, 12, 1222);
     			option4.__value = "Turtle";
     			option4.value = option4.__value;
     			option4.selected = true;
-    			add_location(option4, file$1, 38, 12, 1271);
+    			add_location(option4, file$1, 38, 12, 1280);
     			if (/*video*/ ctx[8].position === void 0) add_render_callback(select_change_handler);
-    			add_location(select, file$1, 33, 10, 982);
+    			add_location(select, file$1, 33, 10, 991);
     			attr_dev(input1, "type", "text");
     			attr_dev(input1, "size", "36");
-    			add_location(input1, file$1, 41, 10, 1416);
-    			add_location(button, file$1, 42, 10, 1479);
-    			add_location(div, file$1, 31, 8, 911);
+    			add_location(input1, file$1, 41, 10, 1425);
+    			add_location(button, file$1, 42, 10, 1488);
+    			attr_dev(div, "id", "edit_item");
+    			attr_dev(div, "class", "svelte-14jlm87");
+    			add_location(div, file$1, 31, 8, 905);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1594,14 +1597,12 @@ var app = (function () {
 
     function create_fragment$1(ctx) {
     	let div1;
-    	let br;
     	let t0;
-    	let t1;
     	let div0;
     	let button0;
-    	let t3;
+    	let t2;
     	let button1;
-    	let t5;
+    	let t4;
     	let import_1;
     	let current;
     	let mounted;
@@ -1619,29 +1620,26 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div1 = element("div");
-    			br = element("br");
-    			t0 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t1 = space();
+    			t0 = space();
     			div0 = element("div");
     			button0 = element("button");
     			button0.textContent = "Add Video";
-    			t3 = space();
+    			t2 = space();
     			button1 = element("button");
     			button1.textContent = "Export";
-    			t5 = space();
+    			t4 = space();
     			create_component(import_1.$$.fragment);
-    			add_location(br, file$1, 29, 17, 859);
     			attr_dev(button0, "class", "dark");
-    			add_location(button0, file$1, 47, 6, 1624);
+    			add_location(button0, file$1, 47, 6, 1633);
     			attr_dev(button1, "class", "dark");
-    			add_location(button1, file$1, 48, 6, 1690);
+    			add_location(button1, file$1, 48, 6, 1699);
     			set_style(div0, "padding", "10px 5px 20px 5px");
-    			add_location(div0, file$1, 46, 4, 1578);
+    			add_location(div0, file$1, 46, 4, 1587);
     			attr_dev(div1, "id", "edit");
     			add_location(div1, file$1, 29, 2, 844);
     		},
@@ -1650,19 +1648,17 @@ var app = (function () {
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
-    			append_dev(div1, br);
-    			append_dev(div1, t0);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(div1, null);
     			}
 
-    			append_dev(div1, t1);
+    			append_dev(div1, t0);
     			append_dev(div1, div0);
     			append_dev(div0, button0);
-    			append_dev(div0, t3);
+    			append_dev(div0, t2);
     			append_dev(div0, button1);
-    			append_dev(div0, t5);
+    			append_dev(div0, t4);
     			mount_component(import_1, div0, null);
     			current = true;
 
@@ -1689,7 +1685,7 @@ var app = (function () {
     					} else {
     						each_blocks[i] = create_each_block(child_ctx);
     						each_blocks[i].c();
-    						each_blocks[i].m(div1, t1);
+    						each_blocks[i].m(div1, t0);
     					}
     				}
 
