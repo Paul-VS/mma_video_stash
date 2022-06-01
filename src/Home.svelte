@@ -54,4 +54,8 @@
     filter: drop-shadow(0px 3px 3px red);
   }
 
+  #home { 
+    padding: 5px;  
+  }
+
 </style>

@@ -52,6 +52,7 @@
     background-color: white; 
     overflow: hidden;
     padding-bottom: 10px;
+    padding-top: 5px;
     border-radius: 0px 0px 10px 10px;
   }
 

@@ -27,9 +27,9 @@
 
 <!----------------------------------------------------------------->
   
-  <div id="edit"><br/>   
+  <div id="edit">  
     {#each $videos as video}      
-        <div>
+        <div id="edit_item">
           <input type="text" bind:value={video.title}>
           <select bind:value={video.position}>
             <option value="Standing" selected>Standing</option>
@@ -53,3 +53,11 @@
 
 <!-----------------------------------------------------------------> 
 
+<style>
+  #edit_item {
+    padding: 2px;
+    text-align: left;
+    max-width:fit-content;
+    margin: auto
+  }
+</style>
